@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  jorgepptest:
+    image: jorgeapp:v1
+    build: .
+    container_name: jorgec1
+    ports:
+    - "3456:80"
+    restart: always

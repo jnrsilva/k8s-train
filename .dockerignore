@@ -2,3 +2,4 @@ Dockerfile
 .git
 .dockerignore
 README.md
+docker-compose.yaml
